@@ -13,7 +13,9 @@ body{
     margin: 0 auto;
 }
 header{
-    padding: 40px 4%;
+    background-color: #000000;
+    padding: 10px 4%;
+    
 }
 
 header > .interface{
@@ -56,4 +58,41 @@ header .btn-contato button{
 }
 header .btn-contato button:hover{
     color: #fff;
+}
+main .flutua{
+
+
+ display: inline-block;
+ transition: 1.5s;
+ 
+ margin-right: 10%;
+}
+main .flutua img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+@keyframes flutuar{
+    0%{
+        top:0;
+    }
+    100%{
+        top:10%;
+    }
+}
+main .flutua:hover{
+ 
+ transform: scale(1.1);
+}
+.txt-principal{
+    color: #fff;
+    margin: 6% 15%;
+   
+}
+.tudo{
+    gap: 10px;
+    display: flex
+}
+.tudo span{
+    color: #60b2f9;
+    font-size: 50px;
 }
