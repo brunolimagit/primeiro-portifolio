@@ -11,11 +11,12 @@ body{
 .interface{
     max-width: 1280px;
     margin: 0 auto;
+} .interface .logo{
+    margin-top: 1%;
 }
 header{
     background-color: #000000;
-    padding: 10px 4%;
-    
+    margin: 0 10%;
 }
 
 header > .interface{
@@ -24,6 +25,7 @@ header > .interface{
     justify-content: space-between;
 }
 header a{
+    
     color: #565656;
     text-decoration: none;
     font-weight: 600;
@@ -35,41 +37,44 @@ header a:hover{
     color: #60b2f9;
     text-shadow: 0 0 20px #60b2f9 ;
     transform: scale(1.10);
-  
-    
 }
+    
 header nav ul  {
-   list-style-type: none;
+     list-style-type: none;
+     margin-top: 6%;
 }
 header nav ul li{
-       display: inline-block;
-       margin: 0 40px;
-       margin-top: 40px;
+     display: inline-block;
+     margin: 0 40px;
+     
+    }
+    .btn-contato button{
+        padding: 10px 40px;
+        background-color: #60b2f9;
+        border: none;
+        border-radius: 30px;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 18px;
+    }
+.interface .btn-contato button{
+    margin: 20% 0px 0 0;
 }
-header .btn-contato button{
-    margin-top: 40px;
-    padding: 10px 40px;
-    background-color: #60b2f9;
-    border: none;
-    border-radius: 30px;
-    font-weight: 600;
-    cursor: pointer;
-    font-size: 18px;
-}
-header .btn-contato button:hover{
+.btn-contato button:hover{
     color: #fff;
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 0 0 10px #60b2f9;
 }
 main .flutua{
-
-
- display: inline-block;
- transition: 1.5s;
- 
- margin-right: 10%;
+    display: inline-block;
+    transition: 1.5s;
+    margin-right: 10%;
 }
 main .flutua img{
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
+    
 }
 @keyframes flutuar{
     0%{
@@ -80,14 +85,20 @@ main .flutua img{
     }
 }
 main .flutua:hover{
- 
- transform: scale(1.1);
+    transform: scale(1.2);
 }
 .txt-principal{
     color: #fff;
-    margin: 6% 15%;
+    margin: 6% 10%;
    
 }
+.txt-principal h1{
+font-size: 40px;
+}
+.txt-principal p{
+    margin: 10px 0 30px;
+}
+   
 .tudo{
     gap: 10px;
     display: flex
@@ -96,3 +107,44 @@ main .flutua:hover{
     color: #60b2f9;
     font-size: 50px;
 }
+.box  .minhasespecialidades {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+.box .minhasespecialidades span{
+    color: #60b2f9;
+}
+section .box{
+    padding: 40px 4%;
+}
+.flex{
+    display: flex;
+    color: #fff;
+    padding: 40px;
+}
+.especialidades-box i:hover{
+    color:#60b2f9;
+}
+.especialidades-box:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0 0 30px #60b2f9;
+}
+.especialidades-box {
+    border-radius: 30px;
+    margin: 30px;
+}
+
+.especialidades-box i{
+    font-size: 70px;
+    margin-left: 40%;
+}
+.especialidades-box p{
+    text-align: center;
+    margin: 10px 10px;
+}
+.especialidades-box h3 {
+text-align: center;
+}
+
