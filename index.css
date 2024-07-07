@@ -7,16 +7,18 @@ body{
     background-color: black;
     height: 100vh;
     font-family: 'poppins';
+    
 }
 .interface{
     max-width: 1280px;
     margin: 0 auto;
-} .interface .logo{
+} 
+.interface .logo{
     margin-top: 1%;
 }
 header{
     background-color: #000000;
-    margin: 0 10%;
+    margin: 0 4%;
 }
 
 header > .interface{
@@ -25,13 +27,16 @@ header > .interface{
     justify-content: space-between;
 }
 header a{
-    
     color: #565656;
     text-decoration: none;
     font-weight: 600;
     display: inline-block;
     font-size: 18px;
     transition: 0.5s;
+}
+header .logo a h1{
+    color: #60b2f9;
+    margin-top: 5%;
 }
 header a:hover{
     color: #60b2f9;
@@ -40,23 +45,23 @@ header a:hover{
 }
     
 header nav ul  {
-     list-style-type: none;
-     margin-top: 6%;
+    list-style-type: none;
+    margin-top: 6%;
 }
 header nav ul li{
-     display: inline-block;
-     margin: 0 40px;
+    display: inline-block;
+    margin: 0 40px;
      
-    }
-    .btn-contato button{
-        padding: 10px 40px;
-        background-color: #60b2f9;
-        border: none;
-        border-radius: 30px;
-        font-weight: 600;
-        cursor: pointer;
-        font-size: 18px;
-    }
+}
+.btn-contato button{
+    padding: 10px 40px;
+    background-color: #60b2f9;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 18px;
+}
 .interface .btn-contato button{
     margin: 20% 0px 0 0;
 }
@@ -64,7 +69,7 @@ header nav ul li{
     color: #fff;
     transform: scale(1.1);
     transition: 0.5s;
-    box-shadow: 0 0 10px #60b2f9;
+    box-shadow: 0 0 20px #60b2f9;
 }
 main .flutua{
     display: inline-block;
@@ -74,7 +79,6 @@ main .flutua{
 main .flutua img{
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
-    
 }
 @keyframes flutuar{
     0%{
@@ -90,16 +94,19 @@ main .flutua:hover{
 .txt-principal{
     color: #fff;
     margin: 6% 10%;
-   
+}
+.txt-principal img{
+    border-radius: 10px;
 }
 .txt-principal h1{
-font-size: 40px;
+    font-size: 40px;
 }
 .txt-principal p{
     margin: 10px 0 30px;
 }
    
 .tudo{
+    margin-top: 52px;
     gap: 10px;
     display: flex
 }
@@ -112,7 +119,10 @@ font-size: 40px;
     text-align: center;
     font-size: 40px;
 }
-.box .minhasespecialidades span{
+.minhasespecialidades{
+    font-size: 40px;
+}
+.minhasespecialidades span{
     color: #60b2f9;
 }
 section .box{
@@ -123,13 +133,13 @@ section .box{
     color: #fff;
     padding: 40px;
 }
-.especialidades-box i:hover{
-    color:#60b2f9;
-}
 .especialidades-box:hover{
     transform: scale(1.05);
     transition: 0.5s;
     box-shadow: 0 0 30px #60b2f9;
+}
+.especialidades-box i:hover{
+    color:#60b2f9;
 }
 .especialidades-box {
     border-radius: 30px;
@@ -145,6 +155,43 @@ section .box{
     margin: 10px 10px;
 }
 .especialidades-box h3 {
-text-align: center;
+    text-align: center;
 }
+
+.sobre{
+    color: #fff;
+    display: flex;
+    margin: 30px ;
+    
+} 
+.sobre .txt-sobre{
+    margin: 10% 10% 0 0;
+}
+.sobre .txt-sobre p{
+    margin: 10px 0;
+}
+
+.sobre .redes-sociais{
+    margin: 20% 0;
+}
+.sobre .redes-sociais a{
+   display: block;
+   color: #fff;
+   margin: 20px 10px ;
+   font-size: 40px;
+   background-color: #60b2f92e;
+   padding: 10px 10px;
+   border-radius: 10px;
+}
+ #what:hover{
+    color: #0bff28;
+}
+#link:hover{
+    color: #288ee7;
+}
+#github:hover{
+    color: #727272;
+}
+
+
 
