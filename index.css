@@ -7,7 +7,6 @@ body{
     background-color: black;
     height: 100vh;
     font-family: 'poppins';
-    
 }
 .interface{
     max-width: 1280px;
@@ -50,8 +49,7 @@ header nav ul  {
 }
 header nav ul li{
     display: inline-block;
-    margin: 0 40px;
-     
+    margin: 0 40px;    
 }
 .btn-contato button{
     padding: 10px 40px;
@@ -103,8 +101,7 @@ main .flutua:hover{
 }
 .txt-principal p{
     margin: 10px 0 30px;
-}
-   
+}  
 .tudo{
     margin-top: 52px;
     gap: 10px;
@@ -118,9 +115,11 @@ main .flutua:hover{
     color: #fff;
     text-align: center;
     font-size: 40px;
+    
 }
 .minhasespecialidades{
     font-size: 40px;
+    color: #fff;
 }
 .minhasespecialidades span{
     color: #60b2f9;
@@ -128,6 +127,7 @@ main .flutua:hover{
 section .box{
     padding: 40px 4%;
 }
+
 .flex{
     display: flex;
     color: #fff;
@@ -157,12 +157,10 @@ section .box{
 .especialidades-box h3 {
     text-align: center;
 }
-
 .sobre{
     color: #fff;
     display: flex;
-    margin: 30px ;
-    
+    margin: 0 30px 0 0;
 } 
 .sobre .txt-sobre{
     margin: 10% 10% 0 0;
@@ -170,9 +168,8 @@ section .box{
 .sobre .txt-sobre p{
     margin: 10px 0;
 }
-
 .sobre .redes-sociais{
-    margin: 20% 0;
+    margin: 20% 0 10px 0;
 }
 .sobre .redes-sociais a{
    display: block;
@@ -192,6 +189,14 @@ section .box{
 #github:hover{
     color: #727272;
 }
-
+.portfolio {
+    box-shadow: 0 0 40px 10px #ffffff1a;
+}
+.portfolio .minhasespecialidades{
+    text-align: center;
+}
+.img-port{
+    background-color: #60b2f9;
+}
 
 
