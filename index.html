@@ -14,7 +14,7 @@
 <body>
     <header>
         <div class="interface">
-            <div class="logo">
+            <div class="logo" id="tudo-1">
                 <a href="#">
                   <a href="#"><h1><span><</span>/BRUNO LIMA><span></h1>
                 </a>
@@ -23,10 +23,10 @@
 
         <nav class="navegar">
               <ul>
-                <li><a href="">Início</a></li>
-                <li><a href="">Especialidades</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Projetos</a></li>
+                <li><a href="#tudo-1">Início</a></li>
+                <li><a href="#box-1">Especialidades</a></li>
+                <li><a href="#sobre-1">Sobre</a></li>
+                <li><a href="#projetos-1">Projetos</a></li>
               </ul>
         </nav><!--navegar-->
 
@@ -39,8 +39,9 @@
     </header>
     
     <main>
-        <div class="tudo">
-           <div class="txt-principal">
+        <div class="tudo" >
+           
+           <div class="txt-principal" >
               <h1>TRANSFORMANDO IDEIAS<br> EM REALIDADE DIGITAL<span>.</span> </h1>
               <p></p>Olá! Meu nome é Jefferson Bruno Lima de Souza. Sou um desenvolvedor front-end apaixonado por criar interfaces de usuário atraentes e funcionais. Tenho experiência em várias tecnologias e frameworks, sempre buscando aprimorar minhas habilidades e aprender novas técnicas.</p>
               
@@ -60,7 +61,7 @@
         </div><!--flutua-->
     </div><!--tudo-->
 
-    <section class="box">
+    <section class="box" id="box-1">
         <div class=" interface">
         <h2 class="minhasespecialidades">MINHAS <span>ESPECIALIDADES.</span></h2>
            <div class="flex">
@@ -84,10 +85,10 @@
             </div><!--flex-->
            
         </div><!--interface-->
-        
+    </div><!--box-1-->
     </section><!--box-->
 
-    <section class="sobre">
+    <section class="sobre" id="sobre-1">
            <div class="txt-principal">
                 <img src="img/section sobre.jpg" alt="" height="500px" width="450px">
            </div>
@@ -108,16 +109,25 @@
            
         </section>
 
-        <section class="portfolio"> 
+        <section class="portfolio" id="projetos-1"> 
             <div class="interface">
                 <h2 class="minhasespecialidades">MEU <span>PORTFÓLIO.</span></h2>
                 <div class="flex">
-                     <div class="img-port"></div>
-                     <div class="img-port"></div>
-                     <div class="img-port"></div>
+                     <div class="img-port" style="background-image: url(img/Untitled.png);">
+                        <div class="overlay">PROJETO 1</div>
+                    </div>
+
+                     <div class="img-port" style="background-image: url(img/Untitled.png);">
+                        <div class="overlay">PROJETO 2</div>
+                     </div>
+
+                     <div class="img-port" style="background-image: url(img/Untitled.png);">
+                        <div class="overlay">PROJETO 3</div>
+                     </div>
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--portfolio-->
     </main>
+    <script src="index.js"></script>
 </body>
 </html>

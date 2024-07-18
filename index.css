@@ -18,6 +18,7 @@ body{
 header{
     background-color: #000000;
     margin: 0 4%;
+    
 }
 
 header > .interface{
@@ -196,7 +197,44 @@ section .box{
     text-align: center;
 }
 .img-port{
-    background-color: #60b2f9;
+    height: 460px;
+    width: 360px;
+    background-color: #000000;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 7s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+.img-port:hover{
+    background-position: 100% 100%; 
+}
+.portfolio .flex{
+    justify-content: space-around;
+}
+.portfolio h2{
+    padding-top: 30px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000097;
+    display: flex;
+    font-weight: 600;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+.overlay:hover{
+    opacity: 1;
+    
 }
 
+    
 
